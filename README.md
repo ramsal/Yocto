@@ -37,7 +37,7 @@ bitbake-layers add-layer ../sources/meta-openembedded/meta-oe/
 
 ## Referencias
 
--[ ] Bitbake es una herramienta dentro del proyecto Yocto que permite ejecutar tareasescritas   en   Python   o   guiones   del   shell   de   forma   concurrente   y   resolviendo   lasdependencias que hay entre ellas de forma automática. 
+- [ ] Bitbake es una herramienta dentro del proyecto Yocto que permite ejecutar tareasescritas   en   Python   o   guiones   del   shell   de   forma   concurrente   y   resolviendo   lasdependencias que hay entre ellas de forma automática. 
 - [ ] Poky es la herramienta que proporciona Yocto para poder generar sistemas operativosLinux propios. 
 
 ## Estructura principal de Poky
