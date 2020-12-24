@@ -39,6 +39,7 @@ bitbake-layers add-layer ../sources/meta-openembedded/meta-oe/
 
 - [ ] Bitbake es una herramienta dentro del proyecto Yocto que permite ejecutar tareasescritas   en   Python   o   guiones   del   shell   de   forma   concurrente   y   resolviendo   lasdependencias que hay entre ellas de forma automática. 
 - [ ] Poky es la herramienta que proporciona Yocto para poder generar sistemas operativosLinux propios. 
+- [ ] Capas se podrían definir como un conjunto de recetas. Son utilizadas para poder hacer el proyecto más modular. Por ejemplo, puede haber una capa que permitaañadir un interfaz gráfico a la distribución, de modo que simplemente añadiendo yconfigurando dicha capa al proyecto se consigue que automáticamente disponga deese interfaz. Por defecto, al empezar a trabajar con Yocto se incluyen las capas  meta, meta-poky, meta-yocto-bsp y workspace. 
 
 ## Estructura principal de Poky
 ```
