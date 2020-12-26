@@ -5,7 +5,7 @@
 # git clone -b morty git://git.yoctoproject.org/poky.git
 ```
 ```
-git clone -b morty https://github.com/openembedded/meta-openembedded.git
+# cd poky // git clone -b morty https://github.com/openembedded/meta-openembedded.git
 ```
 ```
 # source oe-init-build-env  //variables de entorno para la imagen
