@@ -106,7 +106,7 @@ EXTRA_IMAGE_FEATURES = " \
 EXTRA_IMAGE_FEATURES ?= "debug-tweaks"
 
 #Paquetes que se añaden a la imagen
-IMAGE_INSTALL_append = " python-shell python3-pip python3 python3-fcntl tcf-agent openssh-sftp-server rpm nodejs-npm nodejs"
+IMAGE_INSTALL_append = " python-shell python3-pip python3 python3-fcntl tcf-agent openssh-sftp-server rpm nodejs-npm nodejs apt g++ coreutils gnupg"
 
 SDKMACHINE ?= "i686"
 
