@@ -17,6 +17,7 @@
 - [ ] habilitar iptables https://forum.rocketboards.org/t/enable-iptables-module-on-linux-kernel-3-19-running-on-altera-cyclone-v-soc-boar-bsp-yocto/354
 - [ ] ejecutar script al inicio https://wiki.yoctoproject.org/wiki/Cookbook:Appliance:Startup_Scripts // https://hub.mender.io/t/startup-script-for-raspberrypi3-using-yocto/201/3  
 - [ ] crear receta para ejecutar al inicio la primera vez: https://stackoverflow.com/questions/40431674/post-install-script-on-yocto-built-linux
+- [ ] ~/poky/meta/recipes-core/initscripts/initscripts-1.0
 - [ ] Ver las recetas para configuraciones mas avanzadas: https://github.com/openembedded/meta-openembedded/tree/morty/meta-oe/recipes-connectivity
 
 
