@@ -5,6 +5,7 @@
   3. añado la firma a apt "apt-key add ubuntu-archive-keyring.gpg"
   4. apt-get update
   
+- [ ] modificar tamaño imagen ~/poky/meta/conf/bitblake.conf
 - [ ] rsync -arv --exclude "build/tmp/" poky/ basePoky/
 
 
