@@ -5,7 +5,7 @@
   3. añado la firma a apt "apt-key add ubuntu-archive-keyring.gpg"
   4. apt-get update
   
-- [ ] rsync -arv --exclude "poky/build/tmp/" poky/ basePoky/
+- [ ] rsync -arv --exclude "build/tmp/" poky/ basePoky/
 
 
 ## URLs
