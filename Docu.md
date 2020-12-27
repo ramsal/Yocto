@@ -1,4 +1,4 @@
-- [ ] muy imporatnet elegir la misma rama de poky y de los metas
+- [ ] muy importante elegir la misma rama de poky y de los metas
 - [ ] los repositorios dan jaleo. Me funcionó esto: 
   1. pongo como unico repo "http://ubuntu.uc3m.es/ubuntu/ xenial main"
   2. me descargo la firma gpg "wget ubuntu.uc3m.es/ubuntu/project/ubuntu-archive-keyring.gpg"
@@ -15,6 +15,7 @@
 - [ ] punto de acceso y FW https://www.konsulko.com/building-a-diy-soho-router-using-the-yocto-project-build-system-openembedded-part-3/
 - [ ] habilitar iptables https://forum.rocketboards.org/t/enable-iptables-module-on-linux-kernel-3-19-running-on-altera-cyclone-v-soc-boar-bsp-yocto/354
 - [ ] ejecutar script al inicio https://wiki.yoctoproject.org/wiki/Cookbook:Appliance:Startup_Scripts // https://hub.mender.io/t/startup-script-for-raspberrypi3-using-yocto/201/3  
+- [ ] crear receta para ejecutar al inicio la primera vez: https://stackoverflow.com/questions/40431674/post-install-script-on-yocto-built-linux
 - [ ] Ver las recetas para configuraciones mas avanzadas: https://github.com/openembedded/meta-openembedded/tree/morty/meta-oe/recipes-connectivity
 
 
