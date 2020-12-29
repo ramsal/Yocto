@@ -9,6 +9,26 @@
 - [ ] modificar kernel "bitbake -c menuconfig virtual/kernel"
 - [ ] rsync -arv --exclude "build/tmp/" poky/ basePoky/
 
+```
+#!/bin/sh
+### BEGIN INIT INFO
+### END INIT INFO
+
+#Clavo el script ini
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+touch /var/lib/dpkg/status
+#Carga de los repo
+echo "deb http://ubuntu.uc3m.es/ubuntu/ xenial main" >> etc/apt/sources.list
+
+#Creador script
+touch /home/myini.sh
+cat <<EOF >>/home/myini.sh
+#!/bin/bash
+#Created on $(date # : )
+wget ubuntu.uc3m.es/ubuntu/project/ubuntu-archive-keyring.gpg
+apt-key add ubuntu-archive-keyring.gpg
+EOF
+```
 
 ## URLs
 - [ ] https://community.nxp.com/docs/DOC-94967
