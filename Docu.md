@@ -9,6 +9,7 @@
 - [ ] modificar kernel "bitbake -c menuconfig virtual/kernel"
 - [ ] rsync -arv --exclude "build/tmp/" poky/ basePoky/
 
+~/poky/meta/recipes-core/initscripts/initscripts-1.0/myini.sh 
 ```
 #!/bin/sh
 ### BEGIN INIT INFO
