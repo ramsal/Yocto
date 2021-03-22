@@ -6,6 +6,7 @@
 # Default-Start:     S
 # Default-Stop:
 # Short-Description: Set initial config
+# ~/poky/meta/recipes-core/initscripts/initscripts-1.0/myini.sh
 ### END INIT INFO
 
 #Clavo el script ini
@@ -39,3 +40,5 @@ iptables -I INPUT -p tcp --dport 2049 -j ACCEPT
 
 #Reiniciamos SSH
 systemctl restart sshd
+
+# To be continued ...
