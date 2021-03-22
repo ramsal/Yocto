@@ -12,7 +12,7 @@
 echo "nameserver 8.8.8.8" > /etc/resolv.conf
 touch /var/lib/dpkg/status
 #Carga de los repo
-echo "deb http://ubuntu.uc3m.es/ubuntu/ xenial main" > etc/apt/sources.list
+echo "deb http://ubuntu.uc3m.es/ubuntu/ xenial main" > /etc/apt/sources.list
 
 #Creador script
 touch /home/myini.sh
